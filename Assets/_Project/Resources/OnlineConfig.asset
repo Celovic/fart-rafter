@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6099bc1cf80c40f4aa9be8540cabc583, type: 3}
+  m_Name: OnlineConfig
+  m_EditorClassIdentifier: Assembly-CSharp::FartRafters.OnlineConfig
+  environment: production
+  allTimeLeaderboard: fr_alltime
+  weeklyLeaderboard: fr_weekly
+  submitScoreFunction: submit-score
+  allowDirectScoreSubmit: 0
+  playGamesEnabled: 0
+  privacyPolicyUrl: 
+  accountDeletionUrl: 
+  maxSeats: 4
+  maxDevices: 8
+  directPort: 7777

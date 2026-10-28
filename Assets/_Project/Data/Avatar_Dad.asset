@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 116785d5c788f6b48a297680f16f7aa4, type: 3}
+  m_Name: Avatar_Dad
+  m_EditorClassIdentifier: Assembly-CSharp::FartRafters.AvatarDefinition
+  kind: 7
+  displayName: "G\xF6zl\xFCkl\xFC Baba"
+  accentColor: {r: 0.85, g: 0.65, b: 0.25, a: 1}
+  material: {fileID: 2100000, guid: 31ec0be4e0aba294888dfee9d8fba91e, type: 2}
+  bodyMesh: {fileID: 4300000, guid: d4f088c418783514a9b1673eccd3b8b0, type: 2}
+  headMesh: {fileID: 4300000, guid: dc017dbf00988394194c0ade3e761cfa, type: 2}
+  armLeftMesh: {fileID: 4300000, guid: 2cbeec44c7d4e21439052f298b49e516, type: 2}
+  armRightMesh: {fileID: 4300000, guid: 909dc214970a2be4099b8bcaeb7aec4e, type: 2}
+  eyeMesh: {fileID: 4300000, guid: 1a36d4bdf463c6b4da569f24d2a2faaf, type: 2}
+  headPivot: {x: 0, y: 1.04, z: 0.04}
+  shoulder: {x: 0.39, y: 0.9, z: 0.02}
+  eyePosition: {x: 0.11, y: 0.33, z: 0.25}
+  puffOffset: {x: 0, y: 0.42, z: -0.46}
+  voicePitch: 0.95
+  fartClips:
+  - {fileID: 8300000, guid: b43d5d7187220e24784a5239dd42846d, type: 3}
+  - {fileID: 8300000, guid: c8827bc4752fe6a4e8f47b7b29f9dfb8, type: 3}
+  - {fileID: 8300000, guid: e957aa2c8f230cc4d881653978ac3c61, type: 3}
+  fartVolume: 1
+  voice:
+    hit:
+    - {fileID: 8300000, guid: b4e0d11f790e173469ec4ef65ee0fa19, type: 3}
+    - {fileID: 8300000, guid: 4989c3bf9fdc5914faa34bfdf7f0482d, type: 3}
+    - {fileID: 8300000, guid: 6cfc8ac217dcbd040acf60b570494309, type: 3}
+    - {fileID: 8300000, guid: 504f58dd6d4b86e478f0824369a74cad, type: 3}
+    fall:
+    - {fileID: 8300000, guid: 431aea60979ac9345b6f898ed5fd7fab, type: 3}
+    - {fileID: 8300000, guid: 08e17e7c4fe05fb4695036031dc6c6a7, type: 3}
+    board:
+    - {fileID: 8300000, guid: 55da73e5fc54e8e4da09c7bdf498ad10, type: 3}
+    - {fileID: 8300000, guid: 4cd7a0982a31e104a9a121d589e3ed6f, type: 3}
+    eliminated:
+    - {fileID: 8300000, guid: 788a233766943014e8ffc0a3d76345c3, type: 3}
+    - {fileID: 8300000, guid: ccf34ddbce6c66a47874d01005c25d6c, type: 3}
+    cheer:
+    - {fileID: 8300000, guid: 1c628f580b31a584db0825820735f278, type: 3}
+    - {fileID: 8300000, guid: d76f4d04cda11da4abfe628c1231ea11, type: 3}
+    - {fileID: 8300000, guid: 680277ab203aa4349a8f4f714532fa75, type: 3}
+    pickup:
+    - {fileID: 8300000, guid: ee612ab188126d247ace7a81a4f72fa0, type: 3}
+    - {fileID: 8300000, guid: 4018e35d0b9cf8943a7caf2453649e69, type: 3}
+    caught:
+    - {fileID: 8300000, guid: ef603eba0b263474186ddf6322fbb17c, type: 3}
+    - {fileID: 8300000, guid: 67c037f5412117042bffd7aa63cee1b3, type: 3}
+    caughtPolar:
+    - {fileID: 8300000, guid: 85d846ef62c5fee46b8d0b93e1c28009, type: 3}
+    - {fileID: 8300000, guid: 034154e22f83f0e4ea8b448cc55a7b44, type: 3}
+    - {fileID: 8300000, guid: 67c037f5412117042bffd7aa63cee1b3, type: 3}
+    caughtOcean:
+    - {fileID: 8300000, guid: 2a1931f48fb2fbb478c334f65eaccac6, type: 3}
+    - {fileID: 8300000, guid: d21db5e1728ee3648b5b6724af521015, type: 3}
+    - {fileID: 8300000, guid: 67c037f5412117042bffd7aa63cee1b3, type: 3}
+    caughtFun:
+    - {fileID: 8300000, guid: 67c037f5412117042bffd7aa63cee1b3, type: 3}
+    - {fileID: 8300000, guid: 6cfc8ac217dcbd040acf60b570494309, type: 3}
+  costumes:
+  - name: "Mangalc\u0131"
+    head: {fileID: 4300000, guid: dfda9144da6c4ca4ba56386c2cbf0007, type: 2}
+    body: {fileID: 4300000, guid: 7db51cbc681a0f6438e7998954f283e5, type: 2}
+    armLeft: {fileID: 4300000, guid: 77a7409d1967d914eaa10c475fe30218, type: 2}
+    armRight: {fileID: 4300000, guid: baa3696227d4e9342bdae80996c02d20, type: 2}
+  - name: Kaptan
+    head: {fileID: 4300000, guid: 6c25d89e6b9215247bd34dde9c68c724, type: 2}
+    body: {fileID: 4300000, guid: 7f06e94f3b66dc44ca31a2234e1926b5, type: 2}
+    armLeft: {fileID: 4300000, guid: 3f1c7256cd227604dadb7501c82ccddf, type: 2}
+    armRight: {fileID: 4300000, guid: a75db2ed49ea0604bb8831ddb98764bc, type: 2}
+  - name: Dinozor
+    head: {fileID: 4300000, guid: 2012ceb2aa7074c47aedf7d595e5b5b2, type: 2}
+    body: {fileID: 4300000, guid: b70b81a7bd5fd2341a88d281a53b5e46, type: 2}
+    armLeft: {fileID: 4300000, guid: 6dbb8410be13e614e83071c8e59570e3, type: 2}
+    armRight: {fileID: 4300000, guid: 78eeea90acc44de44bcdb7ce6aeb831d, type: 2}
+  thrustForce: 484
+  gasCapacitySeconds: 2.86
+  refillPerSecond: 1.122
+  refillDelay: 0.35
+  recoverThreshold: 0.25
+  turnSpeed: 720

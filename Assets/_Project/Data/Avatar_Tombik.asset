@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 116785d5c788f6b48a297680f16f7aa4, type: 3}
+  m_Name: Avatar_Tombik
+  m_EditorClassIdentifier: Assembly-CSharp::FartRafters.AvatarDefinition
+  kind: 2
+  displayName: Tombik
+  accentColor: {r: 0.98, g: 0.62, b: 0.18, a: 1}
+  material: {fileID: 2100000, guid: 31ec0be4e0aba294888dfee9d8fba91e, type: 2}
+  bodyMesh: {fileID: 4300000, guid: 7bc35cd7aba00d8438d673bbb6944574, type: 2}
+  headMesh: {fileID: 4300000, guid: ea65e647711cebe44887664498c3853b, type: 2}
+  armLeftMesh: {fileID: 4300000, guid: 14e8d20d2af323945b6a70e1798ca46a, type: 2}
+  armRightMesh: {fileID: 4300000, guid: 177a5a9e95cfc234e8a5fa5642179520, type: 2}
+  eyeMesh: {fileID: 4300000, guid: 159e99014b8bd5f44abdee37ac7e93e8, type: 2}
+  headPivot: {x: 0, y: 1.04, z: 0.04}
+  shoulder: {x: 0.37, y: 0.9, z: 0.02}
+  eyePosition: {x: 0.12, y: 0.3, z: 0.25}
+  puffOffset: {x: 0, y: 0.42, z: -0.46}
+  voicePitch: 1.2
+  fartClips:
+  - {fileID: 8300000, guid: f91f6b305244cba4ebcc072b0fdbd08e, type: 3}
+  - {fileID: 8300000, guid: 80effed391ef76e49b7d96dea888ce2d, type: 3}
+  - {fileID: 8300000, guid: 5f4c312ad936ca74db4019d1f4af492a, type: 3}
+  - {fileID: 8300000, guid: b32697445500df142a6cb4a372b16eeb, type: 3}
+  - {fileID: 8300000, guid: 8b595aa7bf669c041b6fb6f9281b64c9, type: 3}
+  - {fileID: 8300000, guid: 5bbd1b88dc80f2e4da7e568ead809fd3, type: 3}
+  fartVolume: 1
+  voice:
+    hit:
+    - {fileID: 8300000, guid: 1a6828259e856a046b6cb396130014ff, type: 3}
+    - {fileID: 8300000, guid: a71d94729ff316f44b68ea827a8b5d7c, type: 3}
+    - {fileID: 8300000, guid: 28bdd6b053c2eb7469d661d09ee99939, type: 3}
+    - {fileID: 8300000, guid: b921f20ceeb90d74a902b2119975c5f8, type: 3}
+    fall:
+    - {fileID: 8300000, guid: 6d40e2ceb4a25b34da9c086319b4844d, type: 3}
+    - {fileID: 8300000, guid: 7ca8040902ee6e1409dc089126995d38, type: 3}
+    board:
+    - {fileID: 8300000, guid: 6d17e72e77962424b99ffac320a19ade, type: 3}
+    - {fileID: 8300000, guid: 340487056920627438102c6956ab6c11, type: 3}
+    eliminated:
+    - {fileID: 8300000, guid: b20779036edcd91488fe0a334a1a39cf, type: 3}
+    - {fileID: 8300000, guid: 1257e6444ecdf59409c7b7bb217109fd, type: 3}
+    cheer:
+    - {fileID: 8300000, guid: 2964ba2c14e5b414ea1ede20fe227494, type: 3}
+    - {fileID: 8300000, guid: 1282b5cf822aedc4e907c745153ac09f, type: 3}
+    - {fileID: 8300000, guid: 31cc9362d86c7da4da37cc1c06919e28, type: 3}
+    pickup:
+    - {fileID: 8300000, guid: 652788ac5c3578a46a7bef5e272dff8a, type: 3}
+    - {fileID: 8300000, guid: 02cf1bcd9eadbc943bdb6312bf9da582, type: 3}
+    caught:
+    - {fileID: 8300000, guid: 6b94dbd77fb04fc40a7eef722706cf45, type: 3}
+    - {fileID: 8300000, guid: 44b74b1b2112f2644921fdabc42ec3b3, type: 3}
+    caughtPolar:
+    - {fileID: 8300000, guid: 4d68491047936ec4da5b2b984fdc3e17, type: 3}
+    - {fileID: 8300000, guid: 9b851575d4b67d64b8416b9798d29e19, type: 3}
+    - {fileID: 8300000, guid: 44b74b1b2112f2644921fdabc42ec3b3, type: 3}
+    caughtOcean:
+    - {fileID: 8300000, guid: 5d8701737d1eb9e46a5c6ef056b137e7, type: 3}
+    - {fileID: 8300000, guid: f19a1595b52db6d46abc8b2b526cc838, type: 3}
+    - {fileID: 8300000, guid: 44b74b1b2112f2644921fdabc42ec3b3, type: 3}
+    caughtFun:
+    - {fileID: 8300000, guid: 44b74b1b2112f2644921fdabc42ec3b3, type: 3}
+    - {fileID: 8300000, guid: 28bdd6b053c2eb7469d661d09ee99939, type: 3}
+  costumes:
+  - name: Smokin
+    head: {fileID: 4300000, guid: 0686b17f5626dd544b65973efc828bd3, type: 2}
+    body: {fileID: 4300000, guid: 246513cefa11b2842af00513a4c5eab6, type: 2}
+    armLeft: {fileID: 4300000, guid: a8afdf94bf6f87c4b8fa1fa1445b3d79, type: 2}
+    armRight: {fileID: 4300000, guid: 45c88a46af015904aba6071467d8e086, type: 2}
+  - name: Astronot
+    head: {fileID: 4300000, guid: d8fcb844f1cf53841a47b3a94c735c57, type: 2}
+    body: {fileID: 4300000, guid: 0f1ac0f4f1d0dcc44bafc38334985b77, type: 2}
+    armLeft: {fileID: 4300000, guid: fc95fd4577515b44391fb02087a7f4ae, type: 2}
+    armRight: {fileID: 4300000, guid: 5ee5ceb62a8842a43828c318bb7e5674, type: 2}
+  - name: "S\xFCper Kahraman"
+    head: {fileID: 4300000, guid: 954ecc6327a0e42489cfe3a6c7c92773, type: 2}
+    body: {fileID: 4300000, guid: fc4ec256fe250e54584f39b640b9182f, type: 2}
+    armLeft: {fileID: 4300000, guid: 7ac0e96101149074d96dcded8f22391b, type: 2}
+    armRight: {fileID: 4300000, guid: 9e4cf5cd49138dd4383bf1d1b6749b9d, type: 2}
+  thrustForce: 473
+  gasCapacitySeconds: 3.19
+  refillPerSecond: 1.045
+  refillDelay: 0.35
+  recoverThreshold: 0.25
+  turnSpeed: 720

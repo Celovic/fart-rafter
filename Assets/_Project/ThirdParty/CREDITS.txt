@@ -1,0 +1,19 @@
+Fart Rafter - third party assets (all CC0 / public domain)
+
+Stylized Nature MegaKit (Standard) - Quaternius - https://quaternius.itch.io/stylized-nature-megakit - CC0
+Fantasy Props MegaKit (Standard) - Quaternius - https://quaternius.itch.io/fantasy-props-megakit - CC0
+KayKit Forest Nature Pack (Free) - Kay Lousberg - https://kaylousberg.itch.io/kaykit-forest - CC0
+Poly Haven HDRI kloofendal_48d_partly_cloudy_puresky, textures bark_brown_02, leafy_grass, ganges_river_pebbles, weathered_brown_planks, forest_ground_04, brown_mud_rocks_01, river_small_rocks, mossy_rock, snow_02, snow_03, snow_field_aerial, coast_sand_01, coast_sand_02, coast_sand_rocks_02, sand_01 - https://polyhaven.com - CC0
+
+Fart recordings - Freesound.org, all Creative Commons 0:
+582215 Martina_Leitschuh; 695462, 677711, 686223, 759915, 756475, 759075 BipolarBad; 558128, 558149, 623168, 561535, 561534, 565746, 558133 Jixolros;
+69500 Walter_Odington; 672206 Squallar1; 663636 frenkfurth; 518701 SamuelGremaud; 405881 SoundGod77; 234284 leosalom
+Additional Freesound CC0 fart recordings: 446000 Breviceps; 864599 WhatChaDoin; 857692 ForBrighterWorld24; 94989 deleted_user_1391979; 840755 bassimat;
+791146, 790710, 792818, 792815 BipolarBad; 556642, 556641 kengiac; 610067 TeddyFerguson; 608980 TryToThink; 640803 DSISStudios; 163386 Under7dude;
+864457 bunky_futt_loving; 645339 SamsterBirdies; 619556 trolln1
+
+Crowd recordings - Freesound.org, all Creative Commons 0:
+264378, 264377 HowardV; 778104 YannSauvin; 353925 dr_skitz; 752707 Nox_Sound; 858309; 462362 Breviceps; 481646 bowlingballout; 32260; 651646 Krizin; 221567 AlaskaRobotics; 859009 ElevatorFan2020; 267249 BerlinGameScene; 178614 Montacue; 235905; 400504
+Polar and ocean sounds - Freesound.org, all Creative Commons 0:
+459341, 459156 LilMati; 705839 Breviceps; 150873 al.barbosa; 437960 craigsmith; 353416 squashy555; 510917 Lydmakeren; 166707 Snapper4298; 117136 cobratronik; 531015 Noted451
+Crowd chants - synthesized with eSpeak NG (Turkish voice), layered with ffmpeg

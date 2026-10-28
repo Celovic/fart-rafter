@@ -1,0 +1,324 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 893b8b225380f674e85c20105e938072, type: 3}
+  m_Name: CourseTheme_Lava
+  m_EditorClassIdentifier: Assembly-CSharp::FartRafters.CourseTheme
+  biome: 4
+  predatorName: "Ate\u015F Semenderi"
+  predatorLength: 5.8
+  caughtMessage: "Ate\u015F semenderine yakaland\u0131!"
+  extraCheers:
+  - "ATE\u015EL\u0130\nSAL!"
+  - "YAN\nG\u0130TS\u0130N!"
+  - "LAV G\u0130B\u0130\nHIZLI!"
+  extraJeers:
+  - "P\u0130\u015ET\u0130N\u0130Z!"
+  - 'SEMENDER
+
+    ACIKTI!'
+  - "K\xDCL\nOLDUNUZ"
+  skybox: {fileID: 2100000, guid: 4643045065f912946a31463b831a3b4a, type: 2}
+  sunColor: {r: 1, g: 0.62, b: 0.38, a: 1}
+  sunIntensity: 1.35
+  sunEuler: {x: 28, y: -50, z: 0}
+  fogColor: {r: 0.42, g: 0.22, b: 0.16, a: 1}
+  fogDensity: 0.012
+  ambientTint: {r: 1.08, g: 0.95, b: 0.88, a: 1}
+  postFx: {fileID: 11400000, guid: ebe7cab5710b80049bdcc5702d578256, type: 2}
+  waveAmplitude: 0.08
+  waveLength: 9
+  waveSpeed: 0.7
+  snow: 0
+  snowMaterial: {fileID: 0}
+  openSide: 0
+  iceMaterial: {fileID: 0}
+  whirlpoolMaterial: {fileID: 2100000, guid: 09b7d8c59cce19740a3b1b02243f18c5, type: 2}
+  rockMaterial: {fileID: 2100000, guid: 31ec0be4e0aba294888dfee9d8fba91e, type: 2}
+  rockMeshes:
+  - {fileID: 4300000, guid: faaa29dad441a8b4b85df48ef9caacdf, type: 2}
+  - {fileID: 4300000, guid: 50572acc9d9c50c4e9459d81d5b4c02c, type: 2}
+  - {fileID: 4300000, guid: 90f35b8742fc42946a4028fa9635c887, type: 2}
+  thornMaterial: {fileID: 2100000, guid: 31ec0be4e0aba294888dfee9d8fba91e, type: 2}
+  millMaterial: {fileID: 0}
+  shoreProps:
+  - {fileID: 4300000, guid: ffba674e7e2349441ad2b595bec888da, type: 2}
+  - {fileID: 4300000, guid: de12de6bf41af174f9dff7103f745e25, type: 2}
+  - {fileID: 4300000, guid: a842d7a4d8777c44e848e9070dc4353c, type: 2}
+  shorePropChance: 0.14
+  jumperMesh: {fileID: 0}
+  crowdAnimal: []
+  animalShare: 0.25
+  ambience: {fileID: 0}
+  ambienceVolume: 0.35
+  elevated: 0
+  rockPhysics: {fileID: 0}
+  mesaMeshes: []
+  pillarMesh: {fileID: 0}
+  gatePoleMesh: {fileID: 0}
+  spinnerMesh: {fileID: 0}
+  cloudMaterial: {fileID: 0}
+  gateLabel: 
+  startLabel: 
+  predatorLunge: 18
+  predatorSpin: 0
+  driftMesh: {fileID: 4300000, guid: 18f7c842417a52d4eabc9b771310ff43, type: 2}
+  driftLength: 6.2
+  eelMesh: {fileID: 0}
+  eelLength: 5
+  barrelMesh: {fileID: 4300000, guid: 1ea2a7f97d7d88b40bb216cca29e03e0, type: 2}
+  icicleMesh: {fileID: 4300000, guid: 08faba0dcc9289d42aff00e58f7c0bb7, type: 2}
+  rampColor: {r: 0.35, g: 0.12, b: 0.08, a: 1}
+  rampStripe: {r: 1, g: 0.55, b: 0.1, a: 1}
+  driftName: "S\xFCnger ta\u015F\u0131"
+  dropName: Lav topu
+  raftLight: 0
+  chaseMesh: {fileID: 4300000, guid: f479377f7538dda4abbe64f58baf7aad, type: 2}
+  chaseName: "Dev Ate\u015F Semenderi"
+  chaseSize: 9
+  chaseCount: 1
+  chaseHeight: 0
+  water: {fileID: 2100000, guid: a860b780773b8e44ba0195cabaf752b1, type: 2}
+  wall: {fileID: 2100000, guid: 314e510b13f9a4042a4d909fd21d4b83, type: 2}
+  obstacle: {fileID: 2100000, guid: 592f0d1c368aa4f46ac087ea0e6914e3, type: 2}
+  checkpoint: {fileID: 2100000, guid: 358635919b6988a4ca12f15395cd7f29, type: 2}
+  checkpointPassed: {fileID: 2100000, guid: d17aa499347c2fb45859d0801296d127, type: 2}
+  finish: {fileID: 2100000, guid: 36bab2f4bbcf6594f85c7dba76c66d09, type: 2}
+  buoy: {fileID: 2100000, guid: 3961c4e7f8ecbfc45955483728be7daf, type: 2}
+  bubbles: {fileID: 2100000, guid: 3d4ce160b32ee2d4eaf388f4d7ad0d04, type: 2}
+  physics: {fileID: 13400000, guid: 0eeb0f9fc6008a64abb0299f37443f6b, type: 2}
+  waterMargin: 20
+  waterCellSize: 1.5
+  grass: {fileID: 2100000, guid: 5a8f0465f6caf484da2a61e6c6ae33cf, type: 2}
+  rock: {fileID: 2100000, guid: 7de3fd1bcfcd8a3408e5a8912e44a616, type: 2}
+  trunk: {fileID: 2100000, guid: eb2828e47b2e87c4b938daa4a1963acf, type: 2}
+  leaves: {fileID: 2100000, guid: 02d8bb94635876341a1fedc30dfb6024, type: 2}
+  leavesDark: {fileID: 2100000, guid: d67954e636677c74abc6517eb82ab098, type: 2}
+  pine: {fileID: 2100000, guid: ee26be8681ca6b340ab14547608981e6, type: 2}
+  reed: {fileID: 2100000, guid: 8ac7ea613dff73d49a55daaa1546a91c, type: 2}
+  flower: {fileID: 2100000, guid: 2b0c6ee512deaa748970bd53fada2c27, type: 2}
+  flowerAlt: {fileID: 2100000, guid: 701014e67c2bbb74683ffc0b7cb2f405, type: 2}
+  bank: {fileID: 2100000, guid: 5a8f0465f6caf484da2a61e6c6ae33cf, type: 2}
+  landWidth: 45
+  landHeight: 0
+  bankSpread: 1
+  decorationSpacing: 2.5
+  treeMeshes:
+  - {fileID: 4300000, guid: cc70195f4bd5c2a419c5a6b719aeddb2, type: 2}
+  - {fileID: 4300000, guid: 603de07d31bf5a242b79bb3a33b1db7a, type: 2}
+  - {fileID: 4300000, guid: 558ca165142b9924c96f6358b778d46d, type: 2}
+  pineMeshes:
+  - {fileID: 4300000, guid: cc70195f4bd5c2a419c5a6b719aeddb2, type: 2}
+  - {fileID: 4300000, guid: 603de07d31bf5a242b79bb3a33b1db7a, type: 2}
+  - {fileID: 4300000, guid: 558ca165142b9924c96f6358b778d46d, type: 2}
+  bushMeshes:
+  - {fileID: 4300000, guid: 7189f66705a2e6e4dbc69467c3613a4e, type: 2}
+  - {fileID: 4300000, guid: a339f375eade523498f3379f0d7e78ed, type: 2}
+  - {fileID: 4300000, guid: aa1c6e31a4bc4084e8aa49b96b67f0b1, type: 2}
+  treeModels:
+  - {fileID: 919132149155446097, guid: 0cded2fed5031be44bedbc0edb41c909, type: 3}
+  - {fileID: 919132149155446097, guid: f241d51f77abbf041b86fd70da8c9a7d, type: 3}
+  - {fileID: 919132149155446097, guid: 882e1375d9ba61d41aee270ee781e096, type: 3}
+  - {fileID: 919132149155446097, guid: 234aea9d83919c04cbe4eef9646b59e9, type: 3}
+  - {fileID: 919132149155446097, guid: f61fe121fa7ad964bae494bffb9f66c8, type: 3}
+  - {fileID: 919132149155446097, guid: 64abbda5da6453b4897d74af2fc71968, type: 3}
+  - {fileID: 919132149155446097, guid: e9441a493ed95554c85ed4f8c137b3a6, type: 3}
+  - {fileID: 919132149155446097, guid: e236eaf02f8f6084489756dbddc73665, type: 3}
+  - {fileID: 919132149155446097, guid: cf70acf4055adc34f9f630e547ed457c, type: 3}
+  pineModels:
+  - {fileID: 919132149155446097, guid: 424a90583b8982e418dd90578b3e64ed, type: 3}
+  - {fileID: 919132149155446097, guid: c50f4a47a194a9c4da807b2eab529677, type: 3}
+  - {fileID: 919132149155446097, guid: 2ffc65a18f8c82c45bfd552691e88d73, type: 3}
+  - {fileID: 919132149155446097, guid: fcac5e877fdf6f8418d59fdc7143e36b, type: 3}
+  - {fileID: 919132149155446097, guid: 3b7ef8833a45097488a6b868156d2cea, type: 3}
+  bushModels:
+  - {fileID: 919132149155446097, guid: 442d1b9c26decb044ab6aff34bc9002e, type: 3}
+  - {fileID: 919132149155446097, guid: a7482b0a53772c645aa94233456e91f9, type: 3}
+  - {fileID: 919132149155446097, guid: 8c6ef6357f25d294c9fcee515e5d1e85, type: 3}
+  - {fileID: 919132149155446097, guid: 5fe9195fa3388f54893abdfc7ee86cd0, type: 3}
+  - {fileID: 919132149155446097, guid: ffc2376593d871f4699d226e5fd73a42, type: 3}
+  rockModels:
+  - {fileID: 919132149155446097, guid: 538c5ecd48f7f8c46a5f7e7b83b724fa, type: 3}
+  - {fileID: 919132149155446097, guid: 00d12009a2d459649a579588308660ad, type: 3}
+  - {fileID: 919132149155446097, guid: 1b3563dca60e4734b9b925ab20019547, type: 3}
+  grassModels: []
+  reedModels: []
+  flowerModels: []
+  plantModels: []
+  pebbleModels: []
+  raftLog: {fileID: 2100000, guid: 2d74e7e68c60bc44c98086482b4c13bd, type: 2}
+  rope: {fileID: 2100000, guid: 475a4f9f217b9494caf4be82d8c3e1e1, type: 2}
+  flag: {fileID: 2100000, guid: 1721a35b1df2a4349ab32f2fec9f57e0, type: 2}
+  raftMesh: {fileID: 4300000, guid: 5fc472af27dbd9b40acc62bd98005a9a, type: 2}
+  raftProps:
+  - {fileID: 919132149155446097, guid: ce9c8aea03060d24c9053c2f42ff40b8, type: 3}
+  - {fileID: 919132149155446097, guid: 0c1691d89c897554684a82ce7985bf82, type: 3}
+  crocodileMesh: {fileID: 4300000, guid: 62e051b994a8db24bbe54106297ee55c, type: 2}
+  buoyMesh: {fileID: 4300000, guid: e26926b9fbe7ee94fa7ff0fba170b36e, type: 2}
+  brambleMesh: {fileID: 4300000, guid: d67c7efd23f3e2e438fede3386d8d4f1, type: 2}
+  millWheelMesh: {fileID: 4300000, guid: abf191ccfc2d82249ad3cfcf9e181e79, type: 2}
+  frogMesh: {fileID: 4300000, guid: f7d41f42b438f674db62c06b797e828d, type: 2}
+  lilyPadMesh: {fileID: 4300000, guid: f2ac1ae1800c24f4eb84810e681056fc, type: 2}
+  birdBodyMesh: {fileID: 4300000, guid: 307cc98fe73cc714eb30e8ab0a1e141d, type: 2}
+  birdWingMesh: {fileID: 4300000, guid: 1ec425fa71dfdb94ea6d214ed62ad398, type: 2}
+  pickupMeshes:
+  - {fileID: 4300000, guid: 7ad4a1dbf117e3a4fb760686c0c70d3b, type: 2}
+  - {fileID: 4300000, guid: 2acda99fbb724264688745d209c10aa8, type: 2}
+  - {fileID: 4300000, guid: 6f0d9153af2051e4ea655eef831ad64e, type: 2}
+  - {fileID: 4300000, guid: 32f66bbbf0df6454598f07ade5a0a524, type: 2}
+  - {fileID: 4300000, guid: 0132a39430a06fd44b427e225c14b263, type: 2}
+  - {fileID: 4300000, guid: 14a0bb0c3ddab194a819706d74949ebc, type: 2}
+  - {fileID: 4300000, guid: 6240e69ad807d3b4e86e8cc4ee5356f8, type: 2}
+  - {fileID: 4300000, guid: 774479364e10fa847a0f3b14d309db49, type: 2}
+  - {fileID: 4300000, guid: f34f88ee8f3f3f24db71f51009d6523d, type: 2}
+  sculptMaterial: {fileID: 2100000, guid: 31ec0be4e0aba294888dfee9d8fba91e, type: 2}
+  foliageMaterial: {fileID: 2100000, guid: 3b5cfee5312cad547888e9c73e2e552e, type: 2}
+  raftMaterial: {fileID: 2100000, guid: 70533ec7f1f976e4ea8d20fca7f6d234, type: 2}
+  eyeMaterial: {fileID: 2100000, guid: 49c69f95e514df04da389fa1b8c06c28, type: 2}
+  spectators:
+  - name: Person0
+    animal: 0
+    body: {fileID: 4300000, guid: 8181239c791358e46b44ec3bfa47d335, type: 2}
+    head: {fileID: 4300000, guid: b36c2a2589cabf94bacc32c22e022086, type: 2}
+    armLeft: {fileID: 4300000, guid: d564e077e26abe8469b74aef591d6a1c, type: 2}
+    armRight: {fileID: 4300000, guid: e4c1d45b5d86b284e92bada3b2f41392, type: 2}
+    eye: {fileID: 4300000, guid: ea92895d1ced11447af283b882f99a4b, type: 2}
+    headPivot: {x: 0, y: 1, z: 0.02}
+    shoulder: {x: 0.3, y: 0.88, z: 0}
+    eyePosition: {x: 0.085, y: 0.29, z: 0.19}
+  - name: Person1
+    animal: 0
+    body: {fileID: 4300000, guid: d7a75ff6326c92241b95b1bd6ccb1e46, type: 2}
+    head: {fileID: 4300000, guid: b1558b0940455dd41ad098bfa01a1b06, type: 2}
+    armLeft: {fileID: 4300000, guid: 16791916d25f52141b23ced36ea0b316, type: 2}
+    armRight: {fileID: 4300000, guid: bb6407ab26016f944b0da26d91febca3, type: 2}
+    eye: {fileID: 4300000, guid: 5c1eaba76cf68e54e9b848a1f3294f45, type: 2}
+    headPivot: {x: 0, y: 1, z: 0.02}
+    shoulder: {x: 0.3, y: 0.88, z: 0}
+    eyePosition: {x: 0.085, y: 0.29, z: 0.19}
+  - name: Person2
+    animal: 0
+    body: {fileID: 4300000, guid: 6a740ba779355a14da1eec1b058c154b, type: 2}
+    head: {fileID: 4300000, guid: 8d97c66325e9bc045972cf65a92d322f, type: 2}
+    armLeft: {fileID: 4300000, guid: eb1b8d794ee6f774f8ea06550389c289, type: 2}
+    armRight: {fileID: 4300000, guid: 25b6a1eef24b21342b9d7bf387f998ed, type: 2}
+    eye: {fileID: 4300000, guid: 69a40106aeb87eb40a5a1def962a182f, type: 2}
+    headPivot: {x: 0, y: 1, z: 0.02}
+    shoulder: {x: 0.3, y: 0.88, z: 0}
+    eyePosition: {x: 0.085, y: 0.29, z: 0.19}
+  - name: Person3
+    animal: 0
+    body: {fileID: 4300000, guid: f7bf13ca1ce6a934aab0d3827ec34fef, type: 2}
+    head: {fileID: 4300000, guid: 290dac9d4139c6b4d8d8c4858f1d9f6f, type: 2}
+    armLeft: {fileID: 4300000, guid: e40b310ac4c8a9c4fa474479414c21f0, type: 2}
+    armRight: {fileID: 4300000, guid: c464814bb9dc0bb4f9ec6bd9cfaaf56e, type: 2}
+    eye: {fileID: 4300000, guid: 9aa0ebb725d5275499b47b1d12db6c47, type: 2}
+    headPivot: {x: 0, y: 1, z: 0.02}
+    shoulder: {x: 0.3, y: 0.88, z: 0}
+    eyePosition: {x: 0.085, y: 0.29, z: 0.19}
+  - name: Person4
+    animal: 0
+    body: {fileID: 4300000, guid: f9cb129723f823c4cae84b263075e62c, type: 2}
+    head: {fileID: 4300000, guid: a90f592fc77d3514bb030a941fa19182, type: 2}
+    armLeft: {fileID: 4300000, guid: c182f4f2672841348aaa0546155fcc9d, type: 2}
+    armRight: {fileID: 4300000, guid: 950c29b37d463cd488ea108421b6d135, type: 2}
+    eye: {fileID: 4300000, guid: a8e004efe8a6708449910018a69d777f, type: 2}
+    headPivot: {x: 0, y: 1, z: 0.02}
+    shoulder: {x: 0.3, y: 0.88, z: 0}
+    eyePosition: {x: 0.085, y: 0.29, z: 0.19}
+  - name: Person5
+    animal: 0
+    body: {fileID: 4300000, guid: 5f205471a76b4534fa9fc601b505c5f2, type: 2}
+    head: {fileID: 4300000, guid: 2165f84850fb276418376d3a772f64ae, type: 2}
+    armLeft: {fileID: 4300000, guid: 713e6032f6d59f04b84785af2329b315, type: 2}
+    armRight: {fileID: 4300000, guid: d5e65b6a33401a94eb8a9ca5dd54e3c0, type: 2}
+    eye: {fileID: 4300000, guid: 71a4b70fdf143d04891641884cf91319, type: 2}
+    headPivot: {x: 0, y: 1, z: 0.02}
+    shoulder: {x: 0.3, y: 0.88, z: 0}
+    eyePosition: {x: 0.085, y: 0.29, z: 0.19}
+  - name: Dog
+    animal: 1
+    body: {fileID: 4300000, guid: 0977e27fd00736c41ba84abdb4d81d0c, type: 2}
+    head: {fileID: 4300000, guid: a8490789c9a4e7444971970abb4d125d, type: 2}
+    armLeft: {fileID: 4300000, guid: 61224e7c6311ea94ea9a596d6d47a678, type: 2}
+    armRight: {fileID: 4300000, guid: 01d5954c455fdbd4584452b6c09893df, type: 2}
+    eye: {fileID: 4300000, guid: de099eebc654e084fa27d2789f61f617, type: 2}
+    headPivot: {x: 0, y: 0.82, z: 0.05}
+    shoulder: {x: 0.18, y: 0.68, z: 0.06}
+    eyePosition: {x: 0.075, y: 0.24, z: 0.15}
+  - name: Sheep
+    animal: 1
+    body: {fileID: 4300000, guid: fbc87e19f4ace1a49b8ac1e27b8a7774, type: 2}
+    head: {fileID: 4300000, guid: 9a028584f5d157041afc85fe5acc7785, type: 2}
+    armLeft: {fileID: 4300000, guid: f42114ae95678a544b4fef1ab04289fa, type: 2}
+    armRight: {fileID: 4300000, guid: b158d7af2b1ec1d45b7c72cff7728e63, type: 2}
+    eye: {fileID: 4300000, guid: a54a125125f81ae41a6607c6b1d5bf32, type: 2}
+    headPivot: {x: 0, y: 0.78, z: 0.12}
+    shoulder: {x: 0.22, y: 0.62, z: 0.05}
+    eyePosition: {x: 0.065, y: 0.2, z: 0.14}
+  - name: Duck
+    animal: 1
+    body: {fileID: 4300000, guid: 21bf1f4fb84ba394cab223fe47a73a41, type: 2}
+    head: {fileID: 4300000, guid: 037e53a70999d074882067fa3cbbfba0, type: 2}
+    armLeft: {fileID: 4300000, guid: 1120b4cf3a24cdb46a378a6dada70088, type: 2}
+    armRight: {fileID: 4300000, guid: 7d4117c66fbf57643bbb04b6663e952b, type: 2}
+    eye: {fileID: 4300000, guid: db8d700b3f248314a95bd8cb5134b098, type: 2}
+    headPivot: {x: 0, y: 0.76, z: 0.05}
+    shoulder: {x: 0.2, y: 0.55, z: 0.02}
+    eyePosition: {x: 0.075, y: 0.19, z: 0.11}
+  signMesh: {fileID: 4300000, guid: 681ba03eeceddab4699c57af43ddd1cb, type: 2}
+  snackMeshes:
+  - {fileID: 4300000, guid: ce82cb72008c415418f38bc67b0a3f4d, type: 2}
+  - {fileID: 4300000, guid: 3fb98af564fee2546b123ae24c352f99, type: 2}
+  - {fileID: 4300000, guid: b2e0e2affe351b6438b04daea7dd7759, type: 2}
+  fishMesh: {fileID: 4300000, guid: 84dad059b11a198409d6d6f268a8359e, type: 2}
+  duckMesh: {fileID: 4300000, guid: 85988aa8e767141448173b0c0b94adc1, type: 2}
+  butterflyWingMesh: {fileID: 4300000, guid: 0520ab0c0dbd1f749b26447e3a0791d5, type: 2}
+  turtleMesh: {fileID: 4300000, guid: c8ea34c8a0ea8ea46b70c576e0c8d96e, type: 2}
+  crowdBoo:
+  - {fileID: 8300000, guid: 49441d36a18f40a49af073c705b5208b, type: 3}
+  - {fileID: 8300000, guid: 06b88a3e29173514ab921a75f3582468, type: 3}
+  - {fileID: 8300000, guid: 780c22df1e94c3c4393af8750cf44bea, type: 3}
+  - {fileID: 8300000, guid: b2a63fb9108a6984c831745e7bf98e68, type: 3}
+  - {fileID: 8300000, guid: 13e9224e145405440add7dba00a65f85, type: 3}
+  - {fileID: 8300000, guid: 0d50286a8a403a7449ee0feb19a33462, type: 3}
+  - {fileID: 8300000, guid: e0f9e84032e895b46812f3b87107ad01, type: 3}
+  crowdCheer:
+  - {fileID: 8300000, guid: 328093c370fa8bc48bc60b08f808b9be, type: 3}
+  - {fileID: 8300000, guid: 00aad069b01398a43a3020d99f62ae66, type: 3}
+  - {fileID: 8300000, guid: 03329e09da5acad4da15b265a4a547da, type: 3}
+  - {fileID: 8300000, guid: c025a63de5e793b4190f3fb75d2fc1d8, type: 3}
+  crowdClap:
+  - {fileID: 8300000, guid: 16671d379ec5e1046966129cb90cffd9, type: 3}
+  - {fileID: 8300000, guid: 7dfe8184b1e9bcb41826afa7d6b5a303, type: 3}
+  - {fileID: 8300000, guid: 05a7aed4831386147a2a691b486aa7ea, type: 3}
+  - {fileID: 8300000, guid: e175c960100e5b44a9158ccd51c2c044, type: 3}
+  crowdChant:
+  - {fileID: 8300000, guid: f5dd989243f69ff45a6901939b584389, type: 3}
+  - {fileID: 8300000, guid: 39214bbc12d5c2b46b2ebafde73bdd3b, type: 3}
+  - {fileID: 8300000, guid: ea02dd1529fd58b4eb90ce2ae86e78de, type: 3}
+  - {fileID: 8300000, guid: a5442b8792996bb4fa6c455145c8a05a, type: 3}
+  - {fileID: 8300000, guid: 2c8b5b208a0a9d044936306e4488f154, type: 3}
+  crowdChew:
+  - {fileID: 8300000, guid: 29305e6187dd37a409ab3cdc0af5c5d9, type: 3}
+  - {fileID: 8300000, guid: 99fb883c38045d94592156c2ec17f702, type: 3}
+  - {fileID: 8300000, guid: 7e2d883d0b66bed4c90675d09d58f61c, type: 3}
+  accent: {fileID: 2100000, guid: b9c5979e02fa3914895c9e282d58303d, type: 2}
+  eyeWhite: {fileID: 2100000, guid: 046fcb541c19b154aa484a04df7f9b82, type: 2}
+  blush: {fileID: 2100000, guid: ff729944e7a092f4f81ef736ba92ee76, type: 2}
+  playerMarkers:
+  - {fileID: 2100000, guid: 568ee0b0ac0cdc94ca6e33d639b226e4, type: 2}
+  - {fileID: 2100000, guid: 876bcc61c699e8b4baf0373ab14ecb04, type: 2}
+  - {fileID: 2100000, guid: c8c5b220060e5ca44b502ef1cf0e08e4, type: 2}
+  - {fileID: 2100000, guid: 5d079451e40d4b24a818f8c27715c5e6, type: 2}
+  puff: {fileID: 2100000, guid: f9edb612149a4504cb0f42c0cabec51c, type: 2}
+  splash: {fileID: 2100000, guid: 66f3e8adabbece242b6925606b003157, type: 2}
+  confetti: {fileID: 2100000, guid: 6721b4bf6db0d314481b21516b097748, type: 2}

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 116785d5c788f6b48a297680f16f7aa4, type: 3}
+  m_Name: Avatar_Hippo
+  m_EditorClassIdentifier: Assembly-CSharp::FartRafters.AvatarDefinition
+  kind: 0
+  displayName: "Su ayg\u0131r\u0131"
+  accentColor: {r: 0.94, g: 0.7, b: 0.78, a: 1}
+  material: {fileID: 2100000, guid: 31ec0be4e0aba294888dfee9d8fba91e, type: 2}
+  bodyMesh: {fileID: 4300000, guid: 6255f714eecb0ae4b8a80a7dde62ec79, type: 2}
+  headMesh: {fileID: 4300000, guid: 59fe7f6a62e256a49bc568a681e159ee, type: 2}
+  armLeftMesh: {fileID: 4300000, guid: 2665ee5e0ea28394999e3074c7bd9118, type: 2}
+  armRightMesh: {fileID: 4300000, guid: 96f619f90110d1f4ca066789a109d727, type: 2}
+  eyeMesh: {fileID: 4300000, guid: ef6d0fe1b54e660478edbd2a5573659f, type: 2}
+  headPivot: {x: 0, y: 1, z: 0.05}
+  shoulder: {x: 0.4, y: 0.86, z: 0.02}
+  eyePosition: {x: 0.15, y: 0.36, z: 0.2}
+  puffOffset: {x: 0, y: 0.42, z: -0.5}
+  voicePitch: 0.85
+  fartClips:
+  - {fileID: 8300000, guid: 382f68ed5f384124ebb6949be5bb052e, type: 3}
+  - {fileID: 8300000, guid: c710b60eb5ea7d94392ea91e970965af, type: 3}
+  - {fileID: 8300000, guid: dc278e70af2f55f43ac56a5dda77209c, type: 3}
+  - {fileID: 8300000, guid: 7225981c5b697b34ab3f75c827766734, type: 3}
+  - {fileID: 8300000, guid: 1fd5b51ac4228be4e8135336008d2a4c, type: 3}
+  fartVolume: 1
+  voice:
+    hit:
+    - {fileID: 8300000, guid: f89f0b93ac6f8174da4b28e36a4be355, type: 3}
+    - {fileID: 8300000, guid: fbfd5858b5f0b514fb6a7f953c35dd2f, type: 3}
+    - {fileID: 8300000, guid: 5c02e54fd9f370f48b24062d64da77ef, type: 3}
+    - {fileID: 8300000, guid: b5b9e2818939f0b4b8844bb78b6d4d6f, type: 3}
+    fall:
+    - {fileID: 8300000, guid: 2bbeb0d24b9a2aa4ca94a2fb9d5d04d9, type: 3}
+    - {fileID: 8300000, guid: b6dfb846c2676ae47acc350472045b64, type: 3}
+    board:
+    - {fileID: 8300000, guid: cc78e813e93569e44b9d46cb98f2ddcf, type: 3}
+    - {fileID: 8300000, guid: 3fee5144bf8386841987785d0bf6ebf6, type: 3}
+    eliminated:
+    - {fileID: 8300000, guid: b4580323afee9df4993b0e9a0be70173, type: 3}
+    - {fileID: 8300000, guid: c48cd320a5e9bb54cb562b5ebf029830, type: 3}
+    cheer:
+    - {fileID: 8300000, guid: bf727c14e7beacd41af6e8a689422baa, type: 3}
+    - {fileID: 8300000, guid: e158eab370829594288595287e9f3505, type: 3}
+    - {fileID: 8300000, guid: a2e1ab53bf7b8e34db423c4cda292c1f, type: 3}
+    pickup:
+    - {fileID: 8300000, guid: 3d644dcb02ed4c04f8a305eca1cfab87, type: 3}
+    - {fileID: 8300000, guid: c0b854f2ca592d043bc10a7b2d36b389, type: 3}
+    caught:
+    - {fileID: 8300000, guid: 487d8c9f94e5c01479a5db0dcd43bfef, type: 3}
+    - {fileID: 8300000, guid: d389496b0b558f744a1961578e4cbfd9, type: 3}
+    caughtPolar:
+    - {fileID: 8300000, guid: 748e1b4e65f2739469160127becd186d, type: 3}
+    - {fileID: 8300000, guid: 385d9056a77ad64448b1b528bc89f41b, type: 3}
+    - {fileID: 8300000, guid: d389496b0b558f744a1961578e4cbfd9, type: 3}
+    caughtOcean:
+    - {fileID: 8300000, guid: 01217145dd643bc42a646c42ac8afde9, type: 3}
+    - {fileID: 8300000, guid: 4100de2dc991a9b4794940e15209f2e5, type: 3}
+    - {fileID: 8300000, guid: d389496b0b558f744a1961578e4cbfd9, type: 3}
+    caughtFun:
+    - {fileID: 8300000, guid: d389496b0b558f744a1961578e4cbfd9, type: 3}
+    - {fileID: 8300000, guid: 5c02e54fd9f370f48b24062d64da77ef, type: 3}
+  costumes:
+  - name: Kral
+    head: {fileID: 4300000, guid: a1c9d11cdf1ad85428472bc09e1578c5, type: 2}
+    body: {fileID: 4300000, guid: 0d1dd8623c9a6fb4fa2a20d1e9f50564, type: 2}
+    armLeft: {fileID: 4300000, guid: a91a37bfbef98d24199a3c448db32c9f, type: 2}
+    armRight: {fileID: 4300000, guid: de6953105ce6ac341b139036f108ecc6, type: 2}
+  - name: "Dalg\u0131\xE7"
+    head: {fileID: 4300000, guid: ab3c64f3b7c3a3346b8192fe260906bf, type: 2}
+    body: {fileID: 4300000, guid: 351e3baf955bf9e44adcf1ed12293a2d, type: 2}
+    armLeft: {fileID: 4300000, guid: b8f04124b98f2294e9b160deb4d990ca, type: 2}
+    armRight: {fileID: 4300000, guid: d00748a47ba4de54a8147a2c839ffadf, type: 2}
+  - name: Balerin
+    head: {fileID: 4300000, guid: f7babea8d3ad7564caae02560148daaf, type: 2}
+    body: {fileID: 4300000, guid: 32dcb7571e47bcd4e8906bbc6af341cb, type: 2}
+    armLeft: {fileID: 4300000, guid: 2d5f6bae5fcf8fa468c5f9787efd7c7b, type: 2}
+    armRight: {fileID: 4300000, guid: 7bb5223e7551d5346b1fb1ff6e87b00e, type: 2}
+  thrustForce: 528
+  gasCapacitySeconds: 2.64
+  refillPerSecond: 0.935
+  refillDelay: 0.35
+  recoverThreshold: 0.25
+  turnSpeed: 720

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 116785d5c788f6b48a297680f16f7aa4, type: 3}
+  m_Name: Avatar_Donkey
+  m_EditorClassIdentifier: Assembly-CSharp::FartRafters.AvatarDefinition
+  kind: 4
+  displayName: "E\u015Fek"
+  accentColor: {r: 0.84, g: 0.2, b: 0.2, a: 1}
+  material: {fileID: 2100000, guid: 31ec0be4e0aba294888dfee9d8fba91e, type: 2}
+  bodyMesh: {fileID: 4300000, guid: f4a843fa2a4ec4a4894dc0a1894d7689, type: 2}
+  headMesh: {fileID: 4300000, guid: 125db7d19d8a8d84c8d2a0089e137225, type: 2}
+  armLeftMesh: {fileID: 4300000, guid: ad5e5b5e529f2a8499f4dfc4486b0d92, type: 2}
+  armRightMesh: {fileID: 4300000, guid: 0a97d5fddb57c0440a90a0ebcf9918fe, type: 2}
+  eyeMesh: {fileID: 4300000, guid: 2ff7008fbdd0ce34f8ecc9d0fe1ba9e0, type: 2}
+  headPivot: {x: 0, y: 1.04, z: 0.04}
+  shoulder: {x: 0.34, y: 0.88, z: 0.02}
+  eyePosition: {x: 0.12, y: 0.33, z: 0.17}
+  puffOffset: {x: 0, y: 0.42, z: -0.46}
+  voicePitch: 1.05
+  fartClips:
+  - {fileID: 8300000, guid: fe63bddb8a6ab4c43b4ca2b6f5cbedc1, type: 3}
+  - {fileID: 8300000, guid: 8a33dab02124b3343a1ace5f571bfbab, type: 3}
+  - {fileID: 8300000, guid: fc59248072ce6154da3bb062417066b7, type: 3}
+  - {fileID: 8300000, guid: c3363b49991587845b927cc05c7a7f7e, type: 3}
+  - {fileID: 8300000, guid: 2a6ecca22750d6146b91d87f3081fa07, type: 3}
+  fartVolume: 1
+  voice:
+    hit:
+    - {fileID: 8300000, guid: 16239cdfb9ade1046b70d89bad7e7fbe, type: 3}
+    - {fileID: 8300000, guid: f882587eb7b7ee34188bd2fe6cedf226, type: 3}
+    - {fileID: 8300000, guid: 3e9ff317570c12448992a70df0801792, type: 3}
+    - {fileID: 8300000, guid: 7409874d7da6e04469fd653b5aa4c3da, type: 3}
+    fall:
+    - {fileID: 8300000, guid: 55802dc79f9f3924399ed0358a3b8bcb, type: 3}
+    - {fileID: 8300000, guid: 77c7df5ed5ae7b64383ebed081d876fe, type: 3}
+    board:
+    - {fileID: 8300000, guid: 6cd8aadb6b3cb0146965a52344c4d7e9, type: 3}
+    - {fileID: 8300000, guid: b77764087ae78ff4eb9969a74a74fc6d, type: 3}
+    eliminated:
+    - {fileID: 8300000, guid: f8266d6e94474684f8d5522d091a0f6d, type: 3}
+    - {fileID: 8300000, guid: 54ba969cb80624a43a157582e6af36ba, type: 3}
+    cheer:
+    - {fileID: 8300000, guid: dc549f9a0e6f93f448105dafd034263f, type: 3}
+    - {fileID: 8300000, guid: 8a4c0312788ed2f4bb0515c688914f07, type: 3}
+    - {fileID: 8300000, guid: aaaaec9b872ad2a46a692e619bc2a8d2, type: 3}
+    pickup:
+    - {fileID: 8300000, guid: 2d0bcbd490be91b4ba554c5306db3b5f, type: 3}
+    - {fileID: 8300000, guid: 861c4a38edcac084da168a67e3ab4b80, type: 3}
+    caught:
+    - {fileID: 8300000, guid: b7200e904b7363e4ba758e4a9b52465d, type: 3}
+    - {fileID: 8300000, guid: d55dd220383bcc344ae3cc89b8ccf6a5, type: 3}
+    caughtPolar:
+    - {fileID: 8300000, guid: 4a6ccec0bb36b2b448aec7731759b73e, type: 3}
+    - {fileID: 8300000, guid: 2671c1132d2f6f745a4ee4ec033d9ff0, type: 3}
+    - {fileID: 8300000, guid: d55dd220383bcc344ae3cc89b8ccf6a5, type: 3}
+    caughtOcean:
+    - {fileID: 8300000, guid: e028316cced952a459eed58839ab9c07, type: 3}
+    - {fileID: 8300000, guid: cf52f94bbba154940832ef156a276127, type: 3}
+    - {fileID: 8300000, guid: d55dd220383bcc344ae3cc89b8ccf6a5, type: 3}
+    caughtFun:
+    - {fileID: 8300000, guid: d55dd220383bcc344ae3cc89b8ccf6a5, type: 3}
+    - {fileID: 8300000, guid: 3e9ff317570c12448992a70df0801792, type: 3}
+  costumes:
+  - name: Sihirbaz
+    head: {fileID: 4300000, guid: 7e335d253a154f548a123577e8bb3e69, type: 2}
+    body: {fileID: 4300000, guid: 244d8f59bffea7348af3652f5be55e6c, type: 2}
+    armLeft: {fileID: 4300000, guid: e07999a7da4b44646be71e46dbb3bf1a, type: 2}
+    armRight: {fileID: 4300000, guid: 59fe9bd4af046ba4581839aebb1666d2, type: 2}
+  - name: Kovboy
+    head: {fileID: 4300000, guid: 276a8760e9f099d40b8bcec6405b0d71, type: 2}
+    body: {fileID: 4300000, guid: c68af0a56cc11ec47bf00bfc25df7fb0, type: 2}
+    armLeft: {fileID: 4300000, guid: 62d2b6f67e12571419ec4e9f4df3e5e1, type: 2}
+    armRight: {fileID: 4300000, guid: ac0c3379d623b7e4a82e26caaa7a55d0, type: 2}
+  - name: Tek Boynuzlu At
+    head: {fileID: 4300000, guid: fcbe1d0114a8e4344b92a0fa99d8ef14, type: 2}
+    body: {fileID: 4300000, guid: 57d95ea27939f6d4f84e4827b7bea422, type: 2}
+    armLeft: {fileID: 4300000, guid: ac9b0df027d0e864b97e269d89bb2c96, type: 2}
+    armRight: {fileID: 4300000, guid: c5006643cab175042b3bc4cc86852291, type: 2}
+  thrustForce: 462
+  gasCapacitySeconds: 2.64
+  refillPerSecond: 1.265
+  refillDelay: 0.35
+  recoverThreshold: 0.25
+  turnSpeed: 720

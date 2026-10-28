@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 116785d5c788f6b48a297680f16f7aa4, type: 3}
+  m_Name: Avatar_Ogre
+  m_EditorClassIdentifier: Assembly-CSharp::FartRafters.AvatarDefinition
+  kind: 3
+  displayName: "Batakl\u0131k Devi"
+  accentColor: {r: 0.48, g: 0.62, b: 0.3, a: 1}
+  material: {fileID: 2100000, guid: 31ec0be4e0aba294888dfee9d8fba91e, type: 2}
+  bodyMesh: {fileID: 4300000, guid: dd717f489fe0e3e428bd8eea6574e980, type: 2}
+  headMesh: {fileID: 4300000, guid: 49838f37578e1744c9a94fd9c56ff2a7, type: 2}
+  armLeftMesh: {fileID: 4300000, guid: efcced26d9de14741942d395272fdd59, type: 2}
+  armRightMesh: {fileID: 4300000, guid: 7756807880564274b93e9f291276ad7d, type: 2}
+  eyeMesh: {fileID: 4300000, guid: 86ec59de67da1a947b341aa9cfcd1d59, type: 2}
+  headPivot: {x: 0, y: 1.06, z: 0.04}
+  shoulder: {x: 0.47, y: 0.9, z: 0}
+  eyePosition: {x: 0.11, y: 0.31, z: 0.21}
+  puffOffset: {x: 0, y: 0.42, z: -0.5}
+  voicePitch: 0.75
+  fartClips:
+  - {fileID: 8300000, guid: 4ee56ef668ae327479ab1f69d44160c6, type: 3}
+  - {fileID: 8300000, guid: 0bc30f162484bcb469c650918284bffe, type: 3}
+  - {fileID: 8300000, guid: 8ef4868bb2fd9fe47a1941ea0003d105, type: 3}
+  - {fileID: 8300000, guid: 025e6a59f948132468f83056e02d651e, type: 3}
+  fartVolume: 1
+  voice:
+    hit:
+    - {fileID: 8300000, guid: f72446eba5aec5f46992eeb5294e9858, type: 3}
+    - {fileID: 8300000, guid: 3c5d4fafeb8f00c439d8a3299f11bf7c, type: 3}
+    - {fileID: 8300000, guid: 5a0d24ff8ab70584aab05e084f1bbe3d, type: 3}
+    - {fileID: 8300000, guid: 1b70800dfe69785429072b1230367dbf, type: 3}
+    fall:
+    - {fileID: 8300000, guid: 707d39e9825930f4eba2ca9e39da1bdc, type: 3}
+    - {fileID: 8300000, guid: c69087b8218bd1b4492a2fead52935c2, type: 3}
+    board:
+    - {fileID: 8300000, guid: 4a9dab6ae643dc5428002ea5b3a41027, type: 3}
+    - {fileID: 8300000, guid: a83101cb9832dd2439c4ec19eb2cfbb6, type: 3}
+    eliminated:
+    - {fileID: 8300000, guid: b73b6f08d626727428eaf7b7aa04e358, type: 3}
+    - {fileID: 8300000, guid: 9959a26b765267c4a93361499d766983, type: 3}
+    cheer:
+    - {fileID: 8300000, guid: 618dc400e17e449459342468b5c02410, type: 3}
+    - {fileID: 8300000, guid: 82bc7d4ee5e19bd4d8ad3fcbf1e403e2, type: 3}
+    - {fileID: 8300000, guid: 0ae096db857a95048809c15fc24143a2, type: 3}
+    pickup:
+    - {fileID: 8300000, guid: dc5102bbd8c91704c8f9e399ad2530dd, type: 3}
+    - {fileID: 8300000, guid: 329921462660ee34a88c590b493d1a15, type: 3}
+    caught:
+    - {fileID: 8300000, guid: 43a85b2a8223c2e44931c5b47a066307, type: 3}
+    - {fileID: 8300000, guid: 059d3fd3cd543e7459caaac2aaa05385, type: 3}
+    caughtPolar:
+    - {fileID: 8300000, guid: 5d9e26535ef2dfc4fb21ed08c3ce3d08, type: 3}
+    - {fileID: 8300000, guid: 471aea75e3235204ab05919b17f8991d, type: 3}
+    - {fileID: 8300000, guid: 059d3fd3cd543e7459caaac2aaa05385, type: 3}
+    caughtOcean:
+    - {fileID: 8300000, guid: 03d4824a5488e3741bb5f69d30c3ff96, type: 3}
+    - {fileID: 8300000, guid: 7340d932f3077b84e976b7f93edf3fed, type: 3}
+    - {fileID: 8300000, guid: 059d3fd3cd543e7459caaac2aaa05385, type: 3}
+    caughtFun:
+    - {fileID: 8300000, guid: 059d3fd3cd543e7459caaac2aaa05385, type: 3}
+    - {fileID: 8300000, guid: 5a0d24ff8ab70584aab05e084f1bbe3d, type: 3}
+  costumes:
+  - name: Viking
+    head: {fileID: 4300000, guid: 9ca9e8278f4222445a6aa1eae01618e7, type: 2}
+    body: {fileID: 4300000, guid: e060a00a291cd224ab9e4b67f04789e3, type: 2}
+    armLeft: {fileID: 4300000, guid: 38ab08b641cfc184abb4606a1f626840, type: 2}
+    armRight: {fileID: 4300000, guid: 54c6b27582539fb448e604f3679514de, type: 2}
+  - name: Korsan
+    head: {fileID: 4300000, guid: 54afd1e011c068b438a3ea8bc4ef6f48, type: 2}
+    body: {fileID: 4300000, guid: b121e011cb5eab04db08e139b2689d77, type: 2}
+    armLeft: {fileID: 4300000, guid: 570a1cbaf9d3a654f98bf2665ca67e18, type: 2}
+    armRight: {fileID: 4300000, guid: d8d3b2748950a9349bbfb23bbc5f7d68, type: 2}
+  - name: Peri
+    head: {fileID: 4300000, guid: 8853d1f1b2e266c4c8466eb533dc1802, type: 2}
+    body: {fileID: 4300000, guid: 01e1f4fcffd8e9045905c475ebd0888b, type: 2}
+    armLeft: {fileID: 4300000, guid: a3b8153c435ecdc4bb70f755b637340c, type: 2}
+    armRight: {fileID: 4300000, guid: 3b58c35474709764a87c6dda6b044c8e, type: 2}
+  thrustForce: 517
+  gasCapacitySeconds: 2.97
+  refillPerSecond: 0.726
+  refillDelay: 0.35
+  recoverThreshold: 0.25
+  turnSpeed: 720

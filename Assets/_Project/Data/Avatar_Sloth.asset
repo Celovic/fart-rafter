@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 116785d5c788f6b48a297680f16f7aa4, type: 3}
+  m_Name: Avatar_Sloth
+  m_EditorClassIdentifier: Assembly-CSharp::FartRafters.AvatarDefinition
+  kind: 5
+  displayName: Tembel Hayvan
+  accentColor: {r: 0.93, g: 0.86, b: 0.72, a: 1}
+  material: {fileID: 2100000, guid: 31ec0be4e0aba294888dfee9d8fba91e, type: 2}
+  bodyMesh: {fileID: 4300000, guid: 5d99a21f56a5beb43a7dd0be3d995473, type: 2}
+  headMesh: {fileID: 4300000, guid: b8c722e245e739146a84dbfd23342ba2, type: 2}
+  armLeftMesh: {fileID: 4300000, guid: 89eb22e4c921023448824bdb319607c4, type: 2}
+  armRightMesh: {fileID: 4300000, guid: 09f52b9ffd7518c41a425d8311c766e4, type: 2}
+  eyeMesh: {fileID: 4300000, guid: f30477f1693f29740926fd77c63875ce, type: 2}
+  headPivot: {x: 0, y: 1.03, z: 0.04}
+  shoulder: {x: 0.33, y: 0.9, z: 0.02}
+  eyePosition: {x: 0.115, y: 0.27, z: 0.25}
+  puffOffset: {x: 0, y: 0.42, z: -0.43}
+  voicePitch: 0.9
+  fartClips:
+  - {fileID: 8300000, guid: 1fd4d46afd5aad5498f016b90fdf9149, type: 3}
+  - {fileID: 8300000, guid: adcb0ec353c5bf54ca64cce1bad598c6, type: 3}
+  - {fileID: 8300000, guid: e6f6f7f2f99858e4d9d8cb82d96fb0ab, type: 3}
+  - {fileID: 8300000, guid: 19b0d3c8702363949ae95112a1485c26, type: 3}
+  - {fileID: 8300000, guid: 6cf5e1200228ff44097535fb759dc8d8, type: 3}
+  - {fileID: 8300000, guid: 0bb6dc4541deb21488ac755f9f4742f1, type: 3}
+  - {fileID: 8300000, guid: e8690e8dc7a8afa45a1ba5f133157a1f, type: 3}
+  fartVolume: 1
+  voice:
+    hit:
+    - {fileID: 8300000, guid: 5976bbe02f027de48956af3c542accc0, type: 3}
+    - {fileID: 8300000, guid: 72d0b642877d40d428c9280f51776f6a, type: 3}
+    - {fileID: 8300000, guid: 2717b4293b386f941aae0e26d615c4c3, type: 3}
+    - {fileID: 8300000, guid: d75e7c86b0653b24185acf050919e486, type: 3}
+    fall:
+    - {fileID: 8300000, guid: 5f67396529c8caa4685670d60f723bdd, type: 3}
+    - {fileID: 8300000, guid: 71edf303e718f0e488e98df2190a3159, type: 3}
+    board:
+    - {fileID: 8300000, guid: 18096e7d4e7a8fa4b887695557e9d138, type: 3}
+    - {fileID: 8300000, guid: ddbf88572a2b35544bd73cf2eab87efb, type: 3}
+    eliminated:
+    - {fileID: 8300000, guid: 8acdec1284d35cd41a3b251225e758f2, type: 3}
+    - {fileID: 8300000, guid: 6a8c6f794481a9d429a7b4f5bafb68ea, type: 3}
+    cheer:
+    - {fileID: 8300000, guid: f523a223d076b2e46a14568633a4fb75, type: 3}
+    - {fileID: 8300000, guid: 12fd20e1b732bed45bd1b2ba7a106adb, type: 3}
+    - {fileID: 8300000, guid: d62d7b620d98b7149b69dfdb8ba5a91f, type: 3}
+    pickup:
+    - {fileID: 8300000, guid: 1bfd56000ec61c442a09916ea92215f6, type: 3}
+    - {fileID: 8300000, guid: 8c43efdc87960744396f8dbbf9fbdd3f, type: 3}
+    caught:
+    - {fileID: 8300000, guid: e4f55e1b8869b004cbfc80c1d913ab60, type: 3}
+    - {fileID: 8300000, guid: 2aa2ee5df4b3f1d45831ddc6c7ad2060, type: 3}
+    caughtPolar:
+    - {fileID: 8300000, guid: b2fa7e924a7332b4bbf001e01e79168f, type: 3}
+    - {fileID: 8300000, guid: 0b139ea358c566b46a9551ba30255c04, type: 3}
+    - {fileID: 8300000, guid: 2aa2ee5df4b3f1d45831ddc6c7ad2060, type: 3}
+    caughtOcean:
+    - {fileID: 8300000, guid: 9f2267f598dd24d4d9fa81b8f7dce8ae, type: 3}
+    - {fileID: 8300000, guid: b9317f81e40cfe74c99043e1ce4745bf, type: 3}
+    - {fileID: 8300000, guid: 2aa2ee5df4b3f1d45831ddc6c7ad2060, type: 3}
+    caughtFun:
+    - {fileID: 8300000, guid: 2aa2ee5df4b3f1d45831ddc6c7ad2060, type: 3}
+    - {fileID: 8300000, guid: 2717b4293b386f941aae0e26d615c4c3, type: 3}
+  costumes:
+  - name: Turist
+    head: {fileID: 4300000, guid: e0eeee4d7fabffd42af4db3f4a4fde1f, type: 2}
+    body: {fileID: 4300000, guid: d32e84e5237ddd440965953bf1294c82, type: 2}
+    armLeft: {fileID: 4300000, guid: 4c1ce1343ddd9a54e9fc10d589bf340e, type: 2}
+    armRight: {fileID: 4300000, guid: e81187e64fc5fb84fb3ca0e8fe437f50, type: 2}
+  - name: Ninja
+    head: {fileID: 4300000, guid: 408051d2913dc1540bfd65bda6e2f7cb, type: 2}
+    body: {fileID: 4300000, guid: 66591718bd3c61143b9851b9375465e3, type: 2}
+    armLeft: {fileID: 4300000, guid: 761c1c469a22e7240a3735dbdfa56c65, type: 2}
+    armRight: {fileID: 4300000, guid: c855c721537dd0546bc77a60e5066362, type: 2}
+  - name: Uykucu
+    head: {fileID: 4300000, guid: 75716b170745eae4389ae8ff5a8a2aed, type: 2}
+    body: {fileID: 4300000, guid: 9502cd9d0121c6345bc6080311e497bf, type: 2}
+    armLeft: {fileID: 4300000, guid: 8989b92f5e3ceef45a98d33e785e7914, type: 2}
+    armRight: {fileID: 4300000, guid: 0dee589d85fa72b49bbdd4326a23f489, type: 2}
+  thrustForce: 434.5
+  gasCapacitySeconds: 3.52
+  refillPerSecond: 0.935
+  refillDelay: 0.35
+  recoverThreshold: 0.25
+  turnSpeed: 720

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f43aef1d91dcd0a438eaa03cac640325, type: 3}
+  m_Name: GameCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::FartRafters.GameCatalog
+  levels:
+  - {fileID: 11400000, guid: 323c3da20f512e44390c5d0f81dd317c, type: 2}
+  - {fileID: 11400000, guid: 490010a4d57dc6147a816a1e61242139, type: 2}
+  - {fileID: 11400000, guid: 5269af2ba5d19044bb9dfb71ef4b61d3, type: 2}
+  - {fileID: 11400000, guid: aef62f93f0628ff4fa7a6990bd71853a, type: 2}
+  - {fileID: 11400000, guid: e92dd8a1f1a99d54e85b68137ba001df, type: 2}
+  avatars:
+  - {fileID: 11400000, guid: 48f84151fa8296d49b77d14787b8cdb4, type: 2}
+  - {fileID: 11400000, guid: 3fc1df04f8ea3e54daaf4a772ec72f2b, type: 2}
+  - {fileID: 11400000, guid: 4d5261fc46dd00f4e8db914d4ebeaed7, type: 2}
+  - {fileID: 11400000, guid: c035088d1efef5649a504ca4eba784b6, type: 2}
+  - {fileID: 11400000, guid: ed32d470cc1168846b28dd7f783422ab, type: 2}
+  - {fileID: 11400000, guid: 4b9726c4a87c2da4d9dcfd9950b1696c, type: 2}
+  - {fileID: 11400000, guid: d17956c76a9490e44bb5db23ae07123b, type: 2}
+  - {fileID: 11400000, guid: b4158d1323223b94d8ccdf9d6a396bfe, type: 2}
+  botLevels:
+  - {fileID: 11400000, guid: a57ef8bb4b292b64f9148fd731d2513c, type: 2}
+  - {fileID: 11400000, guid: bdb2662d7ef0e41469992f49fabcbdfc, type: 2}
+  - {fileID: 11400000, guid: 97f805ab9b0ac6c4086ddc1b7f1e2e3c, type: 2}
+  - {fileID: 11400000, guid: a60b4c6b9d1e769469470e3dbb5a9ad5, type: 2}
+  difficulties:
+  - {fileID: 11400000, guid: 4bfa70f9d20471d45967b9ec2ac1c83e, type: 2}
+  - {fileID: 11400000, guid: ffcef9b5230978a4087daa9ca43d88df, type: 2}
+  - {fileID: 11400000, guid: 7542b659e59710042a1b22062749f60e, type: 2}
+  - {fileID: 11400000, guid: 6085a30159d279349a77cde52e47f2cb, type: 2}
+  rafts:
+  - name: Klasik Sal
+    description: "Hafif ve çevik, çabuk hızlanır"
+    mesh: {fileID: 4300000, guid: 5fc472af27dbd9b40acc62bd98005a9a, type: 2}
+    material: {fileID: 2100000, guid: 70533ec7f1f976e4ea8d20fca7f6d234, type: 2}
+    props: 1
+    thrust: 1
+    drag: 1
+    turnDrag: 1
+    durability: 1
+    acceleration: 5
+    physics: {fileID: 0}
+  - name: "\u015Ei\u015Fme Bot"
+    description: "\xC7arp\u0131nca seker, az hasar al\u0131r"
+    mesh: {fileID: 4300000, guid: 7bd020458c1e1364fa889f490cdaf200, type: 2}
+    material: {fileID: 2100000, guid: 31ec0be4e0aba294888dfee9d8fba91e, type: 2}
+    props: 0
+    thrust: 1
+    drag: 1.05
+    turnDrag: 0.85
+    durability: 3
+    acceleration: 3
+    physics: {fileID: 13400000, guid: 37ad8349217b8bb41b5ccc5ea6d010f4, type: 2}
+  - name: "Ah\u015Fap Kay\u0131k"
+    description: "H\u0131zl\u0131 s\xFCz\xFCl\xFCr ama zor d\xF6ner"
+    mesh: {fileID: 4300000, guid: ad1140b422b8bbc4d9ff23f565e35585, type: 2}
+    material: {fileID: 2100000, guid: 70533ec7f1f976e4ea8d20fca7f6d234, type: 2}
+    props: 0
+    thrust: 1.05
+    drag: 0.85
+    turnDrag: 1.35
+    durability: 2
+    acceleration: 4
+    physics: {fileID: 0}
+  - name: Dev Simit
+    description: "F\u0131r\u0131l f\u0131r\u0131l d\xF6ner, yumu\u015Fak \xE7arpar"
+    mesh: {fileID: 4300000, guid: 11c54e7e6691c384588806cfd1d0f8e2, type: 2}
+    material: {fileID: 2100000, guid: 31ec0be4e0aba294888dfee9d8fba91e, type: 2}
+    props: 0
+    thrust: 0.95
+    drag: 1
+    turnDrag: 0.65
+    durability: 4
+    acceleration: 2
+    physics: {fileID: 13400000, guid: 37ad8349217b8bb41b5ccc5ea6d010f4, type: 2}
+  - name: "K\xFCvet"
+    description: "A\u011F\u0131r ve yava\u015F ama \xE7ok sa\u011Flam"
+    mesh: {fileID: 4300000, guid: acdc473562bf3f94d870de86714a0558, type: 2}
+    material: {fileID: 2100000, guid: 31ec0be4e0aba294888dfee9d8fba91e, type: 2}
+    props: 0
+    thrust: 0.9
+    drag: 1.15
+    turnDrag: 1.15
+    durability: 5
+    acceleration: 1
+    physics: {fileID: 0}
+  tuning: {fileID: 0}
+  unlockAllLevels: 1

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 116785d5c788f6b48a297680f16f7aa4, type: 3}
+  m_Name: Avatar_Uncle
+  m_EditorClassIdentifier: Assembly-CSharp::FartRafters.AvatarDefinition
+  kind: 6
+  displayName: "B\u0131y\u0131kl\u0131 Amca"
+  accentColor: {r: 0.8, g: 0.2, b: 0.18, a: 1}
+  material: {fileID: 2100000, guid: 31ec0be4e0aba294888dfee9d8fba91e, type: 2}
+  bodyMesh: {fileID: 4300000, guid: 8fa22d8dd87acbe42bc56e3efb2812e3, type: 2}
+  headMesh: {fileID: 4300000, guid: e0a16fc447c16914d9d3afd439da8c03, type: 2}
+  armLeftMesh: {fileID: 4300000, guid: 7db7b3bf81ce81e4db503932eb7883ab, type: 2}
+  armRightMesh: {fileID: 4300000, guid: 0ea6709c16856714c90e2f9ff27c3710, type: 2}
+  eyeMesh: {fileID: 4300000, guid: 8b9b128bfe5fbf547948f87470178bb4, type: 2}
+  headPivot: {x: 0, y: 1.04, z: 0.04}
+  shoulder: {x: 0.42, y: 0.9, z: 0.02}
+  eyePosition: {x: 0.11, y: 0.34, z: 0.24}
+  puffOffset: {x: 0, y: 0.42, z: -0.48}
+  voicePitch: 0.8
+  fartClips:
+  - {fileID: 8300000, guid: f47fd8364debcb548bc7af632a8d6dc8, type: 3}
+  - {fileID: 8300000, guid: 073eb6134291e5747a99d36eb2c4f188, type: 3}
+  - {fileID: 8300000, guid: cb98ad371d4ac134dbf8220dfa6d6025, type: 3}
+  fartVolume: 1
+  voice:
+    hit:
+    - {fileID: 8300000, guid: a1855e130a050354ab79e0cf5746b660, type: 3}
+    - {fileID: 8300000, guid: 76b007da4ebdf474cb2d1575796b220e, type: 3}
+    - {fileID: 8300000, guid: 0aa4b7b17f1d35e42a5c13b41c70aecc, type: 3}
+    - {fileID: 8300000, guid: 0a7113cb759208243b0077ef9fc85187, type: 3}
+    fall:
+    - {fileID: 8300000, guid: 4195998497089844dad8447bc703321f, type: 3}
+    - {fileID: 8300000, guid: 354a2233693d23749b4791bd7fcdd82d, type: 3}
+    board:
+    - {fileID: 8300000, guid: 1ca89fc56e9845342b6720d6efc30bf2, type: 3}
+    - {fileID: 8300000, guid: 2f40b7b45122f764188c16e208dcb2c7, type: 3}
+    eliminated:
+    - {fileID: 8300000, guid: bd4ceefc34508d949a05002401c84e3e, type: 3}
+    - {fileID: 8300000, guid: 4a9d2291a836a6944a0842b01b99de34, type: 3}
+    cheer:
+    - {fileID: 8300000, guid: edc288a5613c850408bcd589a3d795d4, type: 3}
+    - {fileID: 8300000, guid: a6ffb76a3918070418b7868ea254209a, type: 3}
+    - {fileID: 8300000, guid: 2a1af007701160244a630a92cc710ee9, type: 3}
+    pickup:
+    - {fileID: 8300000, guid: af6d55f20b48e6e43bd1157ab940f46c, type: 3}
+    - {fileID: 8300000, guid: f443730c7904abd4ab62a1a2aa00c20e, type: 3}
+    caught:
+    - {fileID: 8300000, guid: 51a535d88476ecb4198fb78000920549, type: 3}
+    - {fileID: 8300000, guid: 1cd19756fdf31b34ab9030c37a6358b8, type: 3}
+    caughtPolar:
+    - {fileID: 8300000, guid: 60548232129de3144b6af5bd22184b82, type: 3}
+    - {fileID: 8300000, guid: 9e4f373ae760cdc4ab9460772431840d, type: 3}
+    - {fileID: 8300000, guid: 1cd19756fdf31b34ab9030c37a6358b8, type: 3}
+    caughtOcean:
+    - {fileID: 8300000, guid: 1e618d9fa5beae14eaf6f51b9558d42a, type: 3}
+    - {fileID: 8300000, guid: 084568e9bb7686c4ab18184480adb71e, type: 3}
+    - {fileID: 8300000, guid: 1cd19756fdf31b34ab9030c37a6358b8, type: 3}
+    caughtFun:
+    - {fileID: 8300000, guid: 1cd19756fdf31b34ab9030c37a6358b8, type: 3}
+    - {fileID: 8300000, guid: 0aa4b7b17f1d35e42a5c13b41c70aecc, type: 3}
+  costumes:
+  - name: Beyefendi
+    head: {fileID: 4300000, guid: 99912447990e06a4c90dbce4c2ef3e42, type: 2}
+    body: {fileID: 4300000, guid: 138a11579441c67429a033e4be2826e6, type: 2}
+    armLeft: {fileID: 4300000, guid: 01b34c71c50ac4c43b3aa2fad5b828a2, type: 2}
+    armRight: {fileID: 4300000, guid: b3f4a3011941c404faceab789715b95a, type: 2}
+  - name: "Bal\u0131k\xE7\u0131"
+    head: {fileID: 4300000, guid: 2136ea4eba70bc54ab591095a63a988d, type: 2}
+    body: {fileID: 4300000, guid: 645c65b8022ef1247b5f50bb06cee67f, type: 2}
+    armLeft: {fileID: 4300000, guid: b44122d25b29eda43a143258c1b7a9de, type: 2}
+    armRight: {fileID: 4300000, guid: 245c0ed9016ea6548ba234d1d2b4de05, type: 2}
+  - name: Bebek
+    head: {fileID: 4300000, guid: 801f907db6004f943a06e3c1bcc9ea3d, type: 2}
+    body: {fileID: 4300000, guid: 9c9b27cee66cf154a9cc1149e10da1b2, type: 2}
+    armLeft: {fileID: 0}
+    armRight: {fileID: 4300000, guid: 0cdc8446d9d0b4c468f3a4423ab8548a, type: 2}
+  thrustForce: 522.5
+  gasCapacitySeconds: 2.75
+  refillPerSecond: 0.858
+  refillDelay: 0.35
+  recoverThreshold: 0.25
+  turnSpeed: 720

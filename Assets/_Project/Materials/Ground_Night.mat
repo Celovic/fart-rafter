@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ground_Night
+  m_Shader: {fileID: 4800000, guid: df1197f2231033e419d0a3d91fbeb25e, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DirtMap:
+        m_Texture: {fileID: 2800000, guid: c23c7a763bfaaaf4ea5beb3aee09ad51, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DirtNormal:
+        m_Texture: {fileID: 2800000, guid: 2d5df6bd5d49af84796642186ebaaf21, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrassMap:
+        m_Texture: {fileID: 2800000, guid: 65b74e47b09b2ce419c4275ada039684, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrassNormal:
+        m_Texture: {fileID: 2800000, guid: d6efe3fa84aa21542bf279d95c44ca93, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MacroMap:
+        m_Texture: {fileID: 2800000, guid: 63cbb70db08579446987aaef91b1c6b5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MudMap:
+        m_Texture: {fileID: 2800000, guid: 20c8928c0dfa11c498903bb542af1c31, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MudNormal:
+        m_Texture: {fileID: 2800000, guid: 15b3348ced5ec504eb81e64f9b3839dd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PebbleMap:
+        m_Texture: {fileID: 2800000, guid: 7c75f36608f87204c855cba52f994b43, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PebbleNormal:
+        m_Texture: {fileID: 2800000, guid: 0ba807be545de5a4fbd4a3a850b23b37, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DirtNoise: 0.4
+    - _DirtScale: 0.7
+    - _GrassScale: 0.9
+    - _MacroScale: 0.03
+    - _MudScale: 0.9
+    - _NormalStrength: 0.9
+    - _PebbleScale: 1.2
+    - _WetHeight: 0.3
+    m_Colors:
+    - _DirtTint: {r: 0.2, g: 0.22, b: 0.26, a: 1}
+    - _GrassTint: {r: 0.22, g: 0.3, b: 0.32, a: 1}
+    - _MudTint: {r: 0.16, g: 0.17, b: 0.2, a: 1}
+    - _PebbleTint: {r: 0.24, g: 0.26, b: 0.3, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

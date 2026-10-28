@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad46e7e037144944b9018fa69266fd9e, type: 3}
+  m_Name: Level_03_AkintiYolu
+  m_EditorClassIdentifier: Assembly-CSharp::FartRafters.LevelDefinition
+  id: akinti_yolu
+  displayName: "Ak\u0131nt\u0131 Yolu"
+  nodes:
+  - position: {x: 0, y: -6}
+    width: 19.6
+  - position: {x: 0, y: 0}
+    width: 19.6
+  - position: {x: 0, y: 30}
+    width: 19.6
+  - position: {x: 0, y: 38}
+    width: 8.4
+  - position: {x: 0, y: 56}
+    width: 8.4
+  - position: {x: 0, y: 64}
+    width: 16.8
+  - position: {x: 14, y: 88}
+    width: 16.8
+  - position: {x: 14, y: 100}
+    width: 19.6
+  - position: {x: 14, y: 126}
+    width: 19.6
+  - position: {x: 0, y: 148}
+    width: 16.8
+  - position: {x: 0, y: 160}
+    width: 19.6
+  - position: {x: 0, y: 185}
+    width: 19.6
+  - position: {x: 0, y: 192}
+    width: 19.6
+  startNode: 1
+  checkpointNodes: 010000000500000007000000090000000b000000
+  currents:
+  - position: {x: 14, y: 0.5, z: 113}
+    size: {x: 18.199999, y: 4, z: 26}
+    direction: {x: -1, y: 0, z: 0.15}
+    strength: 3.5
+    yaw: 0
+  obstacles:
+  - position: {x: 0, y: 0.4, z: 160}
+    size: {x: 5, y: 1.5, z: 1.2}
+    travel: {x: 5.6, y: 0, z: 0}
+    speed: 1.8000001
+    kind: 0
+  hazards:
+  - position: {x: 0, y: 0, z: 47}
+    radius: 11
+  - position: {x: 7, y: 0, z: 76}
+    radius: 12
+  - position: {x: 14, y: 0, z: 113}
+    radius: 14
+  - position: {x: 7, y: 0, z: 137}
+    radius: 12
+  - position: {x: 0, y: 0, z: 160}
+    radius: 8
+  rocks: []
+  thorns: []
+  pickups: []
+  mills: []
+  ice: []
+  whirlpools: []
+  heights: []
+  geysers: []
+  barrels: []
+  ramps: []
+  icicles: []
+  specials: []
+  fallChance: 0
+  damageMultiplier: 0.8
+  parTime: 65

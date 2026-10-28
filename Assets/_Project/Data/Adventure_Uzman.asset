@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db2bb2d3a162d1419546bc8bec21be1, type: 3}
+  m_Name: Adventure_Uzman
+  m_EditorClassIdentifier: Assembly-CSharp::FartRafters.AdventureDifficulty
+  id: uzman
+  displayName: Uzman
+  summary: "Her \u015Fey, hi\xE7 ac\u0131madan"
+  length: 2400
+  riverWidth: 16.5
+  checkpointSpacing: 110
+  checkpointCount: 21
+  maxBend: 58
+  narrowChance: 0.3
+  zigzagChance: 0.3
+  featureSpacing: 10
+  crocodileWeight: 0.22
+  rockWeight: 0.24
+  currentWeight: 0.2
+  thornWeight: 0.14
+  millWeight: 0.15
+  rockFieldWeight: 0.2
+  driftWeight: 0.12
+  geyserWeight: 0.1
+  barrelWeight: 0.1
+  rampWeight: 0.08
+  specialWeight: 0.12
+  millSpeed: 75
+  ragingChance: 0.45
+  crocodileSpeed: 5
+  currentStrength: 6.4
+  maxRocksPerCluster: 4
+  damageMultiplier: 5
+  fallChance: 0.2
+  pickupSpacing: 75
+  expectedSpeed: 3.2

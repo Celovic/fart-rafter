@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b993d00566b1e794da2092f7e60b5c79, type: 3}
+  m_Name: Bot_Medium
+  m_EditorClassIdentifier: Assembly-CSharp::FartRafters.BotDifficulty
+  level: 1
+  displayName: Orta
+  cruiseSpeed: 4.2
+  minCruiseSpeed: 2.5
+  decisionInterval: 0.22
+  speedTolerance: 1
+  minGasToStart: 0.15
+  gasReserve: 0
+  aimNoiseDegrees: 12
+  facingTolerance: 70
+  responsiveness: 1.3
+  mistakeChancePerSecond: 0.08
+  mistakeDuration: {x: 0.4, y: 0.9}
+  hazardMistakeChancePerSecond: 0.7
+  cornerLookAhead: 0.3
+  cornerLookAheadDistance: 10
+  avoidObstacles: 0
+  obstacleLookDistance: 9
+  obstaclePredictionSeconds: 1
+  obstacleGapFraction: 0.9
+  planLookAhead: 0
+  planLanes: 9
+  planMargin: 1.2
+  predictCrocodiles: 0
+  readCurrents: 0
+  collectPickups: 0
+  dangerSlowdown: 40
+  waitForSwimmers: 1
+  timeCrocodiles: 0
+  chargeCurrents: 0
+  teamwork: 0.75

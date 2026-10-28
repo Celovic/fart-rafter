@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 116785d5c788f6b48a297680f16f7aa4, type: 3}
+  m_Name: Avatar_Bear
+  m_EditorClassIdentifier: Assembly-CSharp::FartRafters.AvatarDefinition
+  kind: 1
+  displayName: "Ay\u0131"
+  accentColor: {r: 0.88, g: 0.71, b: 0.5, a: 1}
+  material: {fileID: 2100000, guid: 31ec0be4e0aba294888dfee9d8fba91e, type: 2}
+  bodyMesh: {fileID: 4300000, guid: 28a7e208e712b024896b3075663867c5, type: 2}
+  headMesh: {fileID: 4300000, guid: f1e2b58021b2f214d9ab3a9cae88f17c, type: 2}
+  armLeftMesh: {fileID: 4300000, guid: 46f01cff66d8d5849b44ff9b659ac06b, type: 2}
+  armRightMesh: {fileID: 4300000, guid: 7a75a85bd41b1c147bec7edf9308ab77, type: 2}
+  eyeMesh: {fileID: 4300000, guid: 6abc439eb3822d34d8ed2cf0e45f60ee, type: 2}
+  headPivot: {x: 0, y: 1.04, z: 0.03}
+  shoulder: {x: 0.36, y: 0.9, z: 0.02}
+  eyePosition: {x: 0.12, y: 0.32, z: 0.24}
+  puffOffset: {x: 0, y: 0.42, z: -0.44}
+  voicePitch: 1
+  fartClips:
+  - {fileID: 8300000, guid: ec27eb11a7cf45046ab2ec068105a124, type: 3}
+  - {fileID: 8300000, guid: 94069781ac9b4f248ba793b1689abde5, type: 3}
+  - {fileID: 8300000, guid: 0b3c6847966b64a49ab5ef29014b3085, type: 3}
+  - {fileID: 8300000, guid: a50b6dcc14d18334287c91810e500f0b, type: 3}
+  - {fileID: 8300000, guid: f6d4fcc6d4e418b4790d4db7ed9e97a1, type: 3}
+  fartVolume: 1
+  voice:
+    hit:
+    - {fileID: 8300000, guid: 3c38efaffc7c15c4e81a0898bea69191, type: 3}
+    - {fileID: 8300000, guid: 41cb93056dd1915448a29c80ba51f8b3, type: 3}
+    - {fileID: 8300000, guid: 36c4eabab7fa62d45bbbbd82577100e6, type: 3}
+    - {fileID: 8300000, guid: 94007b08479adf14994f0cc6593ba5e3, type: 3}
+    fall:
+    - {fileID: 8300000, guid: 72bdcb5309c0aaa48aa73c1ea94e0c9c, type: 3}
+    - {fileID: 8300000, guid: f641ea3930c851c4bb75ead1ec4b56ea, type: 3}
+    board:
+    - {fileID: 8300000, guid: 75fe053f6e0350d4b87e245246cccf6d, type: 3}
+    - {fileID: 8300000, guid: d732e27179842b94ca5fbfe07f427764, type: 3}
+    eliminated:
+    - {fileID: 8300000, guid: 79d343db61ac7ed409f7a83c7ca1a62a, type: 3}
+    - {fileID: 8300000, guid: 7b08a71fd788b624ca4a402d8aa6e5dd, type: 3}
+    cheer:
+    - {fileID: 8300000, guid: 3beac640e23049d469fca16f1a3d40f9, type: 3}
+    - {fileID: 8300000, guid: a9740fa4c63499a4aafceae4b71ccb59, type: 3}
+    - {fileID: 8300000, guid: b5ef4a97b63ea3d45a7c0dd6a10e0587, type: 3}
+    pickup:
+    - {fileID: 8300000, guid: 6565091f2b78dde418914c5015f7ffaf, type: 3}
+    - {fileID: 8300000, guid: c2f33a3f3423ed947b83964985708abb, type: 3}
+    caught:
+    - {fileID: 8300000, guid: b617e7106ace44e43beaa40740ce932c, type: 3}
+    - {fileID: 8300000, guid: 78382b09bf597aa4aae670f24a7eb009, type: 3}
+    caughtPolar:
+    - {fileID: 8300000, guid: 820d52675caa4734599507ecd9e5bdff, type: 3}
+    - {fileID: 8300000, guid: cebc0d8c76ce1ae4e8233297de5365fc, type: 3}
+    - {fileID: 8300000, guid: 78382b09bf597aa4aae670f24a7eb009, type: 3}
+    caughtOcean:
+    - {fileID: 8300000, guid: 0aad93f935dd90e468afc9b815b81f3d, type: 3}
+    - {fileID: 8300000, guid: e6290e0ca9458864ea70f47af6ecfcf9, type: 3}
+    - {fileID: 8300000, guid: 78382b09bf597aa4aae670f24a7eb009, type: 3}
+    caughtFun:
+    - {fileID: 8300000, guid: 78382b09bf597aa4aae670f24a7eb009, type: 3}
+    - {fileID: 8300000, guid: 36c4eabab7fa62d45bbbbd82577100e6, type: 3}
+  costumes:
+  - name: "A\u015F\xE7\u0131"
+    head: {fileID: 4300000, guid: 95485584ca6eaf148a891166180e69bb, type: 2}
+    body: {fileID: 4300000, guid: bc3e7a453563d93419121c42a67ec220, type: 2}
+    armLeft: {fileID: 4300000, guid: 062ef9c3ef46c0343a75a503f34fdd9f, type: 2}
+    armRight: {fileID: 4300000, guid: 1297cc03a3a20ff4b84302d571b1b996, type: 2}
+  - name: Motorcu
+    head: {fileID: 4300000, guid: 245b0fb153e693c4c81eeec7fd12fc43, type: 2}
+    body: {fileID: 4300000, guid: 266145fbbd6c1974eb918fada1d52a26, type: 2}
+    armLeft: {fileID: 4300000, guid: 9914e33c030665e4ab6b2a6df45613ef, type: 2}
+    armRight: {fileID: 4300000, guid: 21bea62f793d7554d94fe22fe22cdbfa, type: 2}
+  - name: "Bal Ar\u0131s\u0131"
+    head: {fileID: 4300000, guid: a430e0d70fef4094f947b198080e0ef3, type: 2}
+    body: {fileID: 4300000, guid: b6f67fb81cad3da4e87fdd8eba5d6429, type: 2}
+    armLeft: {fileID: 4300000, guid: 00229e97c62453c489c88dd9420d54f9, type: 2}
+    armRight: {fileID: 4300000, guid: 9cbe2a9ce251bf741b8b0ee66214cc39, type: 2}
+  thrustForce: 561
+  gasCapacitySeconds: 2.42
+  refillPerSecond: 0.792
+  refillDelay: 0.35
+  recoverThreshold: 0.25
+  turnSpeed: 720
