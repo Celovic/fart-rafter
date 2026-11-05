@@ -1,0 +1,6 @@
+# Bu dosyayı "upload.properties" adıyla kopyalayıp doldurun. upload.properties Git'e girmez.
+# Yol, proje köküne göre göreli veya tam yol olabilir.
+storeFile=Keystore/fartrafter-upload.keystore
+storePassword=BURAYA_KEYSTORE_SIFRESI
+keyAlias=upload
+keyPassword=BURAYA_ANAHTAR_SIFRESI
