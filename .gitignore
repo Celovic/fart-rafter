@@ -41,3 +41,9 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /.utmp/
+
+# Google Play imza anahtarı — ASLA commit'leme
+/[Kk]eystore/*
+!/[Kk]eystore/upload.properties.example
+*.keystore
+*.jks
