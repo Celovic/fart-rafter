@@ -20,11 +20,20 @@ namespace FartRafters.EditorTools
         {
             PlayerSettings.companyName = "FartRafters";
             PlayerSettings.productName = "Fart Rafter";
-            PlayerSettings.bundleVersion = "0.1.0";
+            // Sürüm adı/kodu artık her çağrıda sıfırlanmıyor: Google Play her yüklemede
+            // daha büyük bir versionCode ister. Değerleri PlayStoreBuild yönetir.
+            if (string.IsNullOrEmpty(PlayerSettings.bundleVersion))
+            {
+                PlayerSettings.bundleVersion = "0.1.0";
+            }
             PlayerSettings.SetApplicationIdentifier(NamedBuildTarget.Android, ApplicationId);
             PlayerSettings.SetScriptingBackend(NamedBuildTarget.Android, ScriptingImplementation.IL2CPP);
             PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64;
-            PlayerSettings.Android.bundleVersionCode = 1;
+            if (PlayerSettings.Android.bundleVersionCode < 1)
+            {
+                PlayerSettings.Android.bundleVersionCode = 1;
+            }
+            PlayerSettings.Android.targetSdkVersion = (AndroidSdkVersions)PlayStoreBuild.TargetApiLevel;
             PlayerSettings.defaultInterfaceOrientation = UIOrientation.AutoRotation;
             PlayerSettings.allowedAutorotateToPortrait = false;
             PlayerSettings.allowedAutorotateToPortraitUpsideDown = false;
@@ -34,7 +43,6 @@ namespace FartRafters.EditorTools
             PlayerSettings.SplashScreen.show = false;
             PlayerSettings.SplashScreen.showUnityLogo = false;
             PlayerSettings.SplashScreen.backgroundColor = new Color(0.07f, 0.08f, 0.21f, 1f);
-            EditorUserBuildSettings.buildAppBundle = false;
             EnsureOnlineConfig();
             ApplyIcons();
             AssetDatabase.SaveAssets();
